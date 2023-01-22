@@ -1,0 +1,32 @@
+// range finding of a number
+#include <stdio.h>
+
+int main()
+{
+ int x,y;
+ printf("Enter the number between 0 to 39"
+);
+ scanf("%d",&y);
+ if(y/10==0)
+{
+ printf("you have entered the number0-9"
+);
+}
+else if(y/10==1)
+{ printf("you have entered the number10-19"
+);
+}
+else if(y/10==2)
+{ printf("you have entered the number20-29"
+);
+} 
+else if(y/10==3)
+{ printf("you have entered the number30-39"
+);
+}
+else 
+{ 
+ printf(" the number not in range");
+}
+return 0;
+}
