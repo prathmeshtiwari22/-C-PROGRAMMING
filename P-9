@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+
+void main()
+
+{
+
+ long int num =10;
+
+ long int *ptr;
+
+ printf("num's address: %p\n",&num);
+
+ ptr = &num;
+ 
+ printf(" pointer's adress : %p\n", &ptr);
+
+  printf(" pointer's size : %ld byte\n", sizeof(ptr));
+
+  
+  printf(" pointer's vlue : %p\n", ptr);
+
+   printf(" value of pointed to : %ld\n", *ptr);
+ 
+ 
+  
+ 
+}
