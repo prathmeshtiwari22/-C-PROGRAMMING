@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+
+struct student
+{
+  char Name[100];
+  int age;
+  int salary;
+}stud;
+
+int main(){
+    struct student;
+    stud.age = 19;
+    strcpy(stud.Name, "prathmesh");
+    stud.salary= 200000;
+    
+    printf("%s\n%d\n%d",stud.Name,stud.age,stud.salary);
+    return 0;
+}
+// 
+
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+    char str[] = "Programming";
+    char str2 []="C-";
+    printf("str = %s,\nstr2 = %s\n",str,str2);
+    strcat(str2,str);
+    printf("The str2 has now become \n%s", str2);
+    return 0;
+    
+}
